@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-AMQP
 Version  : 0.06
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/C/CH/CHIPS/Net-AMQP-0.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CH/CHIPS/Net-AMQP-0.06.tar.gz
 Summary  : 'Advanced Message Queue Protocol (de)serialization and representation'
@@ -12,6 +12,11 @@ Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-2.0
 Requires: perl-Net-AMQP-license = %{version}-%{release}
 Requires: perl-Net-AMQP-perl = %{version}-%{release}
+Requires: perl(Data::Dumper)
+Requires: perl(File::Path)
+Requires: perl(File::Spec)
+Requires: perl(Scalar::Util)
+Requires: perl(XML::LibXML)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Class::Accessor)
 BuildRequires : perl(Class::Data::Inheritable)

@@ -1,2 +1,7 @@
 # This file contains additional runtime requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+perl(Data::Dumper)
+perl(File::Path)
+perl(File::Spec)
+perl(Scalar::Util)
+perl(XML::LibXML)
