@@ -1,0 +1,6 @@
+0.06
+perl(Class::Accessor)
+perl(Class::Data::Inheritable)
+perl(Test::Deep)
+perl(XML::LibXML)
+perl(XML::SAX::Exception)
