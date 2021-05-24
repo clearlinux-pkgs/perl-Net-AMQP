@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-AMQP
 Version  : 0.06
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/C/CH/CHIPS/Net-AMQP-0.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CH/CHIPS/Net-AMQP-0.06.tar.gz
 Summary  : 'Advanced Message Queue Protocol (de)serialization and representation'
