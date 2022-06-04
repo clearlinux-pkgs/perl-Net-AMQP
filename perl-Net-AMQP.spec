@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-AMQP
 Version  : 0.06
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/C/CH/CHIPS/Net-AMQP-0.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CH/CHIPS/Net-AMQP-0.06.tar.gz
 Summary  : 'Advanced Message Queue Protocol (de)serialization and representation'
@@ -121,18 +121,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Common.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/Body.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/Header.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/Heartbeat.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/Method.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/OOBBody.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/OOBHeader.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/OOBMethod.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Frame/Trace.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Protocol.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Protocol/Base.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Protocol/v0_8.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Net/AMQP/Value.pm
+/usr/lib/perl5/*
